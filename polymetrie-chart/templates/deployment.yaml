@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "polymetrie-chart.fullname" . }}
-  namespace: default
+  namespace: "default"
   labels:
     {{- include "polymetrie-chart.labels" . | nindent 4 }}
 spec:
