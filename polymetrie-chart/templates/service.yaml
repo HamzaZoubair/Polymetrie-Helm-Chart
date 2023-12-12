@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: {{ include "polymetrie-chart.fullname" . }}
+  namespace : "default"
   labels:
     {{- include "polymetrie-chart.labels" . | nindent 4 }}
 spec:
