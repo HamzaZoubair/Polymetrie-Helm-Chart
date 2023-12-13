@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: hamza125/polymetrie-increment
-  pullPolicy: Always
+  pullPolicy: "Always"
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
