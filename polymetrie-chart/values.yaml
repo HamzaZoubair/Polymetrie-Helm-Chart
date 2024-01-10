@@ -41,7 +41,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host:  polymetrie.example.com
+    - host:  polymetrie.orch-team-g.pns-projects.fr.eu.org
       paths:
         - path: /
           pathType: ImplementationSpecific
